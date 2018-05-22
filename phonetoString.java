@@ -1,3 +1,5 @@
+//Find combinations of characters for a phone number. Each number is mapped to set of characters
+
 import java.util.HashMap;
 
 public class phonetoString

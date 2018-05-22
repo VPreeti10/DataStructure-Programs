@@ -1,4 +1,4 @@
-
+//Doubly linked list node
 public class DLLNode {
 
 	DLLNode prev;

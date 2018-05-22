@@ -1,3 +1,4 @@
+// Find the shortest path in a binary maze from (0,0) to (m,n) 
 
 public class ShortestPathBinaryMaze {
 	int N=4;

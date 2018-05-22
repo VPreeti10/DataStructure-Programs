@@ -1,4 +1,4 @@
-
+// Implement merge sort of arrays
 public class mergeSorted {
 	
 	public static int[] merge(int[] arr,int l,int m,int r) {

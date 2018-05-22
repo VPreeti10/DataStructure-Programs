@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// To find set of numbers in array that add upto a sum 
+=======
 //Find set of numbers from the array that add upto a sum (target).
+>>>>>>> e85b0af61c816e1a5dcdcfed77fae9de817be64d
 import java.util.ArrayList;
 import java.util.Arrays;
 

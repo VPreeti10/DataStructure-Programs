@@ -1,4 +1,4 @@
-/* An Iterative Java program to print levels line by line */
+/* An Iterative Java program to print tree levels line by line */
 
 import java.util.LinkedList;
 import java.util.Queue;

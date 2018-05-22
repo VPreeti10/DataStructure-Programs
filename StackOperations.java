@@ -1,3 +1,4 @@
+// Stack implementation using doubly linked list
 
 public class StackOperations {
 	 DLLNode head;

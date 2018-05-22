@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// Convert a sorted array to Binary search tree.
+=======
 //Program to convert sorted array to Binary Search Tree
+>>>>>>> e85b0af61c816e1a5dcdcfed77fae9de817be64d
 public class ArraytoBST {
 
 	static Node root;
