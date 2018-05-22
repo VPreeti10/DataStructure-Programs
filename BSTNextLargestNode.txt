@@ -1,0 +1,65 @@
+public class Node
+{
+  int data;
+  Node left,right;
+  Node(int val)
+  {
+    data=val;
+    left=right=null;
+  }
+}
+
+public class BSTNextlargestNode {
+	Node root,maxNode;
+	public BSTNextlargestNode(){
+		
+	}
+	public Node getNextLargestElement(Node root,int n) {
+			if(root==null)
+			{
+				return maxNode;
+			}
+			else if(root!=null && root.data==n)
+			{
+				return root;
+			}
+			else if(n<root.data)
+			{
+				maxNode=root;
+				if(root.left!=null)
+				{
+					getNextLargestElement(root.left, n);
+				}					
+			}
+			
+			else if(n>root.data)
+			{
+				if(root.right!=null)
+				{
+					getNextLargestElement(root.right, n);
+				}
+			}
+			else
+			{
+			return null;
+			}
+			return maxNode;
+		}
+		
+	
+	public static void main(String[] args) {
+		BSTNextlargestNode bl=new BSTNextlargestNode();
+		bl.root=new Node(28);
+		bl.root.left=new Node(12);
+		bl.root.right=new Node(40);
+		//bl.root.left.left=new Node(1);
+		bl.root.left.right=new Node(23);
+		bl.root.right.left=new Node(31);
+		bl.root.right.right=new Node(48);
+		//System.out.println(bl.getNextLargestElement(bl.root,14).data);
+	    Node res=bl.getNextLargestElement(bl.root,35); 
+	    System.out.println(res.data);
+	    Node res1=bl.getNextLargestElement(bl.root,21); 
+	    System.out.println(res1.data);
+	}
+}
