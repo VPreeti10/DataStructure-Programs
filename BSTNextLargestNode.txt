@@ -55,8 +55,7 @@ public class BSTNextlargestNode {
 		//bl.root.left.left=new Node(1);
 		bl.root.left.right=new Node(23);
 		bl.root.right.left=new Node(31);
-		bl.root.right.right=new Node(48);
-		//System.out.println(bl.getNextLargestElement(bl.root,14).data);
+		bl.root.right.right=new Node(48);		
 	    Node res=bl.getNextLargestElement(bl.root,35); 
 	    System.out.println(res.data);
 	    Node res1=bl.getNextLargestElement(bl.root,21); 
